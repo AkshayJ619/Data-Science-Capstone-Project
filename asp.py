@@ -2,9 +2,9 @@ import streamlit as st
 import pickle
 import numpy as np
 
-lr1 = pickle.load(open('lr_model_8N.pkl','rb'))
-dt1 = pickle.load(open('dt_model_8N.pkl','rb'))
-rf1 = pickle.load(open('lr_model_8N.pkl','rb'))
+lr1 = pickle.load(open('lr1_model_8N.pkl','rb'))
+dt1 = pickle.load(open('dt1_model_8N.pkl','rb'))
+rf1 = pickle.load(open('lr1_model_8N.pkl','rb'))
 
 st.title(' Web App')
 st.subheader('Fill the below Details to find the right price')
